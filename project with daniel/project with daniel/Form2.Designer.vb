@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -32,6 +33,16 @@ Partial Class Form2
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Pilotimglist = New System.Windows.Forms.ImageList(Me.components)
+        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
+        Me.ImageList3 = New System.Windows.Forms.ImageList(Me.components)
+        Me.ImageList4 = New System.Windows.Forms.ImageList(Me.components)
         Me.SuspendLayout()
         '
         'Button1
@@ -120,11 +131,102 @@ Partial Class Form2
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Bridgeline"
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Red
+        Me.Button5.Location = New System.Drawing.Point(694, 109)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(94, 29)
+        Me.Button5.TabIndex = 9
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.White
+        Me.Button6.Location = New System.Drawing.Point(694, 144)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(94, 29)
+        Me.Button6.TabIndex = 10
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Black
+        Me.Button7.Location = New System.Drawing.Point(694, 179)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(94, 29)
+        Me.Button7.TabIndex = 11
+        Me.Button7.Text = "Button7"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(714, 86)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(41, 20)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Paint"
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Silver
+        Me.Button8.Location = New System.Drawing.Point(12, 109)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(94, 29)
+        Me.Button8.TabIndex = 13
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Black
+        Me.Button9.Location = New System.Drawing.Point(12, 144)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(94, 29)
+        Me.Button9.TabIndex = 14
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Pilotimglist
+        '
+        Me.Pilotimglist.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.Pilotimglist.ImageStream = CType(resources.GetObject("Pilotimglist.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.Pilotimglist.TransparentColor = System.Drawing.Color.Transparent
+        Me.Pilotimglist.Images.SetKeyName(0, "Capture.PNG")
+        Me.Pilotimglist.Images.SetKeyName(1, "pilet black.PNG")
+        Me.Pilotimglist.Images.SetKeyName(2, "pilot red.PNG")
+        Me.Pilotimglist.Images.SetKeyName(3, "pilot red g.PNG")
+        Me.Pilotimglist.Images.SetKeyName(4, "pilot white b.PNG")
+        Me.Pilotimglist.Images.SetKeyName(5, "pilot white g.PNG")
+        '
+        'ImageList2
+        '
+        Me.ImageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.ImageList2.ImageSize = New System.Drawing.Size(16, 16)
+        Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
+        '
+        'ImageList3
+        '
+        Me.ImageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.ImageList3.ImageSize = New System.Drawing.Size(16, 16)
+        Me.ImageList3.TransparentColor = System.Drawing.Color.Transparent
+        '
+        'ImageList4
+        '
+        Me.ImageList4.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit
+        Me.ImageList4.ImageSize = New System.Drawing.Size(16, 16)
+        Me.ImageList4.TransparentColor = System.Drawing.Color.Transparent
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -150,4 +252,14 @@ Partial Class Form2
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Pilotimglist As ImageList
+    Friend WithEvents ImageList2 As ImageList
+    Friend WithEvents ImageList3 As ImageList
+    Friend WithEvents ImageList4 As ImageList
 End Class
