@@ -47,7 +47,7 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.BackgroundImage = Global.project_with_daniel.My.Resources.Resources.Capture
+        'Me.Button1.BackgroundImage = Global.project_with_daniel.My.Resources.Resources.Capture
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Location = New System.Drawing.Point(99, 360)
         Me.Button1.Name = "Button1"
