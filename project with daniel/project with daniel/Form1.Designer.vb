@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.nextpage = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -31,14 +31,14 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'nextpage
         '
-        Me.Button1.Location = New System.Drawing.Point(52, 344)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 29)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.nextpage.Location = New System.Drawing.Point(615, 378)
+        Me.nextpage.Name = "nextpage"
+        Me.nextpage.Size = New System.Drawing.Size(94, 29)
+        Me.nextpage.TabIndex = 0
+        Me.nextpage.Text = "next page"
+        Me.nextpage.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -94,7 +94,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.nextpage)
         Me.Name = "Form1"
         Me.Text = "`"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -103,7 +103,7 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents nextpage As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox

@@ -43,11 +43,12 @@ Partial Class Form2
         Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.ImageList3 = New System.Windows.Forms.ImageList(Me.components)
         Me.ImageList4 = New System.Windows.Forms.ImageList(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        'Me.Button1.BackgroundImage = Global.project_with_daniel.My.Resources.Resources.Capture
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Location = New System.Drawing.Point(99, 360)
         Me.Button1.Name = "Button1"
@@ -216,11 +217,29 @@ Partial Class Form2
         Me.ImageList4.ImageSize = New System.Drawing.Size(16, 16)
         Me.ImageList4.TransparentColor = System.Drawing.Color.Transparent
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(295, 179)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(125, 27)
+        Me.TextBox1.TabIndex = 15
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(312, 222)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(94, 29)
+        Me.Button10.TabIndex = 18
+        Me.Button10.Text = "Button10"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label6)
@@ -262,4 +281,6 @@ Partial Class Form2
     Friend WithEvents ImageList2 As ImageList
     Friend WithEvents ImageList3 As ImageList
     Friend WithEvents ImageList4 As ImageList
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button10 As Button
 End Class
