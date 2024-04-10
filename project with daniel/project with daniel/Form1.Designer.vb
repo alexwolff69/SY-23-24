@@ -23,8 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.nextpage = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -33,30 +31,12 @@ Partial Class Form1
         '
         'nextpage
         '
-        Me.nextpage.Location = New System.Drawing.Point(615, 378)
+        Me.nextpage.Location = New System.Drawing.Point(345, 319)
         Me.nextpage.Name = "nextpage"
         Me.nextpage.Size = New System.Drawing.Size(94, 29)
         Me.nextpage.TabIndex = 0
         Me.nextpage.Text = "next page"
         Me.nextpage.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 12)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 20)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(71, 12)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 20)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label2"
         '
         'PictureBox1
         '
@@ -92,8 +72,6 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.nextpage)
         Me.Name = "Form1"
         Me.Text = "`"
@@ -104,8 +82,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents nextpage As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
